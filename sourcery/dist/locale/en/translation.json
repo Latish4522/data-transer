@@ -1,0 +1,34 @@
+{
+  "1" : {
+    "title": "You have scanned the Sourcery web application QR code for <1>growers (farmers)</1>. Welcome!",
+    "content": {
+      "text_1": "Sourcery is a global sourcing and trading platform that connects brands, manufacturers, and growers to transform trade for good through its pioneering Direct-to-GrowerTM programme.",
+      "text_2": "Through this application, you can register your farm and business, share crop quality and environmental data and engage with other growers, field staff, auditors, manufacturers, and brands to sell your data and products into the Sourcery Direct-to-GrowerTM marketplace.",
+      "text_3": "Our partnership with Bluenumber brings you cutting-edge technology that provides you with a Self-Sovereign Identification (SSID) wallet and a Personal Data Vault (PDV). This means you will have full ownership of your data, control who can access it, and control how it is used. Your data will not be misused or mishandled.",
+      "text_4": "But that's not all - having a Bluenumber SSID wallet opens new opportunities for you to market and sell your products directly to buyers who are willing to pay a market premium for verified quality and sustainability.",
+      "text_5": "This Sourcery web application is required when selling products into the Sourcery market and it is required for all buyers as well. This enables you to specify transaction information and create a proof of sale between yourself and the buyer allowing you to be paid for your data and product transactions, including premiums payments. Any person engaging with you for training, verification, and transacting cotton through Sourcery will be required to scan a QR code only on your mobile device. This is required to receive a payment for data and premiums. Digital payments received in mobile wallets can transfer into any bank account or in select cases be exchanged for cash after sixty (60) days.",
+      "text_6": "Sourcery web application is always free to use. Please join us today and experience the power Direct-to-GrowerTM and self-sovereign data ownership to ensure that growers are recognized and rewarded demonstrating superior commercial and environmental progress.",
+      "text_7": "All growers we complete registration will receive a small deposit in their mobile wallet in the web application. Digital payments received in mobile wallets can transfer into any bank account or in select cases be exchanged for cash after sixty (60) days. Once a digital payment is received you can then begin to earn more money through selling data and products through Sourcery Direct-to-GrowerTM marketplace."
+    }
+  },
+  "2": {
+    "title": "You have scanned the Sourcery web application QR code for <1>field staff and verifiers</1>. Welcome!",
+    "content": {
+      "text_1": "Sourcery is a global sourcing and trading platform that connect brands, manufacturers, and growers (farmers) to transform trade fo good through its pioneering Direct-to-GrowerTM programme.",
+      "text_2": "Through this application, you can register yourself as a qualified field staff or verifier and begin engaging with growers, gins and merchants to provide training, data collection and data verification services.",
+      "text_3": "Our partnership with Bluenumber brings you cutting-edge technology that provides you with a Self-Sovereign Identification (SSID) wallet and a Personal Data Vault (PDV). This means you will have full ownership of your data, control who can access it, and control how it is used. Your datawill not be misused or mishandled.",
+      "text_4": "But that's not all - having a Bluenumber SSID wallet opens new opportunities for you to perform training and verification services on behalf of growers, merchants, gins and other parties and get paid directly for your services. Digital payments received in mobile wallets can transfer into any bank account or in select cases be exchanged for cash after sixty (60) days.",
+      "text_5": "One registered, you will have to scan the QR code of each growers you engage. This QR code is found only on their mobile device prior to conducting training, data collection or on-site verification.",
+      "text_6": "Sourcery web application is always free to use. Please continue registering on this application to become an official Sourcery field staff or verifier today."
+    }
+  },
+  "3": {
+    "title": "You have scanned the Sourcery web application QR code for <1>merchants and traders</1>. Welcome!",
+    "content": {
+      "text_1": "Sourcery is a global sourcing and trading platform that connect brands, manufacturers, and growers (farmers) to transform trade for good through its pioneering Direct-to-GrowerTM programme.",
+      "text_2": "Our partnership with Bluenumber brings you cutting-edge technology that provides you with a Self-Sovereign Identification (SSID) wallet and a Personal Data Vault (PDV). Having a Bluenumber SSID wallet allows you to enter the Sourcery Direct-to-GrowerTM programme as a merchant and trader. The SSID allow you to buy products directly from growers as well as sell products into processors (gins) and manufacturers who are also registered in the Sourcery Direct-to-Grower programme. This app enables you to specify transaction information and create a proof of sale between yourself and the growers to ensure you are paid a premium on products when sold to processors.",
+      "text_3": "You purchase cotton you must scan the growers QR code found only on their mobile device to transact via Sourcery Direct-to-GrowerTM programme. When selling cotton to other merchants, traders or processors (gins), the QR code on your mobile device must be scanned by the buyers to transact via Sourcery Direct-to-GrowerTM programme. This two-step process is required to unlock the premium payment on lint cotton paid to gins from merchants, manufacturers and brands. ",
+      "text_4": "Please continue registering on this application to become an official Sourcery Intelligencer merchant and trader."
+    }
+  }
+}

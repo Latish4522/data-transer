@@ -1,0 +1,17 @@
+FROM nginx:stable-alpine
+LABEL version="1.0"
+
+## Remove default nginx website
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY nginx/default.conf /etc/nginx/conf.d/
+
+WORKDIR /usr/share/nginx/html
+
+COPY dist/ .
+
+#COPY /usr/src/app/dist /usr/share/nginx/html
+
+EXPOSE 8080
+
+CMD ["nginx", "-g", "daemon off;"]

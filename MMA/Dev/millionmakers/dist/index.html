@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MMAHP</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./assets/media/company-logos/bluenumber-logo-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .custom-clustericon {
+      background: var(--cluster-color);
+      color: #FFF;
+      border-radius: 100%;
+      font-weight: bold;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-clustericon::before,
+    .custom-clustericon::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      background: var(--cluster-color);
+      opacity: 0.2;
+      border-radius: 100%;
+    }
+
+    .custom-clustericon::before {
+      padding: 7px;
+    }
+
+    .custom-clustericon::after {
+      padding: 14px;
+    }
+
+    .custom-clustericon-1 {
+      --cluster-color: #008000;
+    }
+
+    .custom-clustericon-2 {
+      --cluster-color: #FF9B00;
+    }
+
+    .custom-clustericon-3 {
+      --cluster-color: #FF6969;
+    }
+
+    .custom-clustericon-4 {
+      --cluster-color: #008000;
+    }
+
+    .custom-clustericon-global {
+      --cluster-color: #5a5de2;
+    }
+
+    /* get the container that's just outside the marker image,
+		which just happens to have our Marker title in it */
+    #map div[title="Current User Location"] {
+      -moz-animation: ping 3s infinite;
+      -webkit-animation: ping 3s infinite;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+
+    }
+
+    /* hide the superfluous marker image since it would expand and shrink with its containing element */
+    /*	#map div[style*="987654"][title] img {*/
+
+    #map div[title="Current User Location"] img {
+      display: none;
+    }
+
+    @-webkit-keyframes ping {
+      from {
+        background-color: #3eb16e;
+        transform: scale(.25);
+        -ms-transform: scale(.25);
+        /* IE 9 */
+        -webkit-transform: scale(.25);
+        /* Safari and Chrome */
+        -o-transform: scale(.25);
+        /* Opera */
+        -moz-transform: scale(.25);
+        /* Firefox */
+        opacity: 1;
+      }
+
+      to {
+        transform: scale(3);
+        -ms-transform: scale(3);
+        /* IE 9 */
+        -webkit-transform: scale(3);
+        /* Safari and Chrome */
+        -o-transform: scale(3);
+        /* Opera */
+        -moz-transform: scale(3);
+        /* Firefox */
+        opacity: 0;
+      }
+    }
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="styles.css"></head>
+
+<body>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en',includedLanguages: 'en,ms,fr,vi,hi,ne,bn,ro,bg,uk,pl,lt,lv,fa,sk,pt,ru,kk,tg,ky'}, 'google_translate_element');
+  }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRXI14v5Bu0AFtdV1HZ1XPQhVMhbodFjg&amp;libraries=places"></script>
+
+</html>
